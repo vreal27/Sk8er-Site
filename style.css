@@ -13,8 +13,6 @@ div {
 	height: 500px;
 	width: 500px;
 	background-color: green;
-	display: flex;
-	justify-content: flex-end;
 	font-family: Arial, sans-serif;
 }
 
@@ -25,6 +23,7 @@ div {
 	height: 30px;
 	width: 344px;
 	background-color: red;
+	margin-left: 156px;
 
 }
 
@@ -37,7 +36,7 @@ div {
 
 }
 
-li {
+.socmediasquare li {
 	display: flex;
 	justify-content: center; 
 	height:30px;
@@ -47,8 +46,8 @@ li {
 	color: white;
 }
 
-i {
-	border: 2px solid;
+.socmediasquare i {
+	border-bottom: 2px solid rgb(106,105,103);
 	padding: 5px;
 	padding-bottom: 24px;
 	padding-right: 10px;
@@ -58,6 +57,7 @@ i {
 .fa-facebook-f {
 	margin-top: -14px;
     margin-right: -13px;
+    padding-right: 12px;
     background-color: rgb(52,67,133);
 }
 
@@ -73,14 +73,14 @@ i {
 	background-color: rgb(161,38,34);
 }
 
-li:nth-child(1){
+.socmediasquare li:nth-child(1){
 	display: flex;
 	align-items: flex-start;
 	margin-right: 55px;
 	margin-top: 15px;
 }
 
-li:nth-child(2){
+.socmediasquare li:nth-child(2){
 	height: 18px;
 	margin-right: 10px;
     margin-top:19px;
@@ -93,7 +93,16 @@ li:nth-child(2){
 	margin-top: 4px;
 	margin-right:4px;
 	font-size: 9px;
+	padding-right: 13px;
 
+}
+
+
+.linkdirectory {
+
+	height: 50px;
+	width: 50px;
+	background-color: red;
 }
 
 
