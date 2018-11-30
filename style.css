@@ -10,12 +10,21 @@ html {
 
 div {
 	margin: auto;
-	height: 500px;
-	width: 500px;
+	text-align: center;
+	color: white;
 	background-color: green;
-	font-family: Arial, sans-serif;
+	height: 600px;
+	width: 800px;
+	border:solid;
+	border-width: 1px;
+	border-color: black;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
+section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 .socmediabar {
 
@@ -99,10 +108,57 @@ div {
 
 
 .linkdirectory {
+	display: flex;
+	justify-content: center;
+	font-size:15px;
+	height: 60px;
+	width: auto;
+	overflow: auto;
 
-	height: 50px;
-	width: 50px;
-	background-color: red;
 }
+
+.linknav {
+	padding:0;
+	display: flex;
+	width: auto;
+	align-items: flex-start;
+	list-style: none;
+
+}
+
+.linkdirectory li {
+	font-size:14px;
+	width: 200px;
+	background-color: rgb(162,24,35);
+	padding: 9px 23px;
+	border-bottom: solid;
+	border-width: 4px;
+	border-color: rgb(125,125,125);
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.bannerimage {
+	height: 300px;
+	width: auto;
+	background-image: url("assets/top-image.png");
+	background-repeat: no-repeat;
+	background-position: -322px -178px;;
+	border: solid;
+	border-color: white;
+	border-width:thick;
+}
+
+.bannerimage img {
+	display:block;
+	height:200px;
+	margin-top:54px;
+	margin: bottom:20px;
+
+}
+
+
+
+
 
 
