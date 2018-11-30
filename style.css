@@ -1,0 +1,99 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+
+div {
+	margin: auto;
+	height: 500px;
+	width: 500px;
+	background-color: green;
+	display: flex;
+	justify-content: flex-end;
+	font-family: Arial, sans-serif;
+}
+
+
+.socmediabar {
+
+	display: inline-block;
+	height: 30px;
+	width: 344px;
+	background-color: red;
+
+}
+
+.socmediasquare {
+
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+
+}
+
+li {
+	display: flex;
+	justify-content: center; 
+	height:30px;
+	width:32px;
+	padding: 5px;
+	margin: 5px;
+	color: white;
+}
+
+i {
+	border: 2px solid;
+	padding: 5px;
+	padding-bottom: 24px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fa-facebook-f {
+	margin-top: -14px;
+    margin-right: -13px;
+    background-color: rgb(52,67,133);
+}
+
+.fa-rss {
+	background-color: rgb(191,125,38);
+}
+
+.fa-twitter {
+	background-color: rgb(88,120,187);
+}
+
+.fa-youtube-square {
+	background-color: rgb(161,38,34);
+}
+
+li:nth-child(1){
+	display: flex;
+	align-items: flex-start;
+	margin-right: 55px;
+	margin-top: 15px;
+}
+
+li:nth-child(2){
+	height: 18px;
+	margin-right: 10px;
+    margin-top:19px;
+	border-left: 2px dotted;
+	border-width: 2px;
+}
+
+
+.subscr {
+	margin-top: 4px;
+	margin-right:4px;
+	font-size: 9px;
+
+}
+
+
