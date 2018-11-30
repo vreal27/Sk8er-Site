@@ -13,7 +13,7 @@ html {
 	text-align: center;
 	color: white;
 	background-color: green;
-	height: 1000px;
+	height: 2000px;
 	width: 900px;
 	border:solid;
 	border-width: 1px;
@@ -241,5 +241,107 @@ h3 {
 	text-decoration: none; 
 	display: block;
 }
+.skaters {
+	height: 400px;
+	width: auto;
+	background-color: blue;
+}
+
+.skaters div {
+	border: 3px solid white;
+	float: left;
+	height:182px;
+	width: 287px;
+	margin: 6px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.skaters div:nth-child(1){
+	background-image: url("assets/sk8er-4.png");
+	background-repeat: no-repeat;
+	background-size:  388px 254px;
+    background-position: -94px -40px;
+	padding-top:42px;
+}
+
+.skaters div:nth-child(2){
+	background-image: url("assets/sk8er-3.png");
+	background-repeat: no-repeat;
+	background-size:  359px 205px;
+    background-position: -1px -29px;
+	padding-top:42px;
+
+}
+.skaters div:nth-child(3) {
+	background-image: url("assets/sk8er-1.png");
+	background-repeat: no-repeat;
+	background-size: 659px 269px;
+    background-position: -9px -59px;
+	height: 182px;
+	width: 588px;
+	padding-top:74px;
+}
+
+.skaters div:nth-child(4){
+	background-image: url("assets/sk8er-2.png");
+	background-repeat: no-repeat;
+	background-size: 600px 379px;
+    background-position: -255px -7px;
+	height: 376px;
+	width: 286px;
+	margin-top: -188px;
+	padding-top:138px;
+}
+
+
+#pointer {
+	background-color: rgb(163,23,35);
+	height: 44px;
+	width: 140px;
+	padding-top: 13px;
+	font-size: 13px;
+	position: absolute;
+	left:355px;
+	border:none;
+}
+
+#pointer:after {
+	position: absolute;
+	content:"";
+	right:-12px;
+	bottom: 1px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 22px 0 22px 12px;
+	border-color: transparent transparent transparent rgb(163,23,35);
+
+}
+
+#boards {
+	font-size: 10px;
+	height: 182px;
+	width: 100px;
+	padding: 0;
+	margin-right:0;
+	margin-left:0;
+	width: 900px;
+}
+
+#boards ul{
+	display: flex;
+	justify-content: center:;
+	list-style: none;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+#boards img {
+	margin: 10px;
+	height: 138px;
+	width: 57px;
+}
+
 
 
