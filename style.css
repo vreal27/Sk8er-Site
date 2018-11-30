@@ -8,13 +8,13 @@ html {
 
 
 
-div {
+#container {
 	margin: auto;
 	text-align: center;
 	color: white;
 	background-color: green;
-	height: 600px;
-	width: 800px;
+	height: 1000px;
+	width: 900px;
 	border:solid;
 	border-width: 1px;
 	border-color: black;
@@ -32,7 +32,8 @@ section {
 	height: 30px;
 	width: 344px;
 	background-color: red;
-	margin-left: 156px;
+    margin-left: 459px;
+    margin-bottom: 0;
 
 }
 
@@ -56,7 +57,7 @@ section {
 }
 
 .socmediasquare i {
-	border-bottom: 2px solid rgb(106,105,103);
+	
 	padding: 5px;
 	padding-bottom: 24px;
 	padding-right: 10px;
@@ -131,34 +132,114 @@ section {
 	width: 200px;
 	background-color: rgb(162,24,35);
 	padding: 9px 23px;
-	border-bottom: solid;
-	border-width: 4px;
-	border-color: rgb(125,125,125);
 	margin-right: 5px;
 	margin-left: 5px;
 }
 
-.bannerimage {
-	height: 300px;
-	width: auto;
+.banner {
 	background-image: url("assets/top-image.png");
 	background-repeat: no-repeat;
-	background-position: -322px -178px;;
-	border: solid;
+	background-position: -31px -129px;
+    background-size: 1036px 750px;
+	position: relative;
+	display: block;
+	height: 300px;
+	width: auto;
+	flex-wrap:wrap;
+	overflow:hidden;
+	border-style:solid;
+	border-width: 10px;
 	border-color: white;
-	border-width:thick;
 }
 
-.bannerimage img {
-	display:block;
-	height:200px;
-	margin-top:54px;
-	margin: bottom:20px;
+.bannerbox {
+	flex-wrap:wrap;
+	overflow:hidden;
+	height: 300px;
+	width: auto;
+	
+}
 
+.camera {
+	position: absolute;
+	left: 9px;
+    top: 11px;
+    height: 280px;
+    width: 778px;
+}
+
+.plogo {
+	position: absolute;
+	left: 14px;
+    top: 41px;
+	height: 200px;
+}
+
+.grid {
+	position: absolute;
+	left: 0px;
+    top: 0px;
+    height: 473px;
+    width: 800px;
+}
+
+.articles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:300px;
+	width: auto;
+	padding: 0;
 }
 
 
+.news {
+	color: black;
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	margin: 10px;
+	text-align: left;
+	padding: 10px;
+	padding-top: 0;
+	overflow: hidden;
 
+}
 
+.news:last-child {
+	margin-right: 0;
+}
+
+.news:first-child {
+	margin-left: 0;
+}
+
+.newstitle {
+	font-size: 22px;
+	font-weight: 500;
+	
+}
+
+h3 {
+	font-size: 12px;
+	color: lightgray;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.news p {
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 300;
+}
+
+.news a {
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(165,18,30);
+	text-align: center;
+	text-decoration: none; 
+	display: block;
+}
 
 
