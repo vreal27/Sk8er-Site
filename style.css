@@ -6,19 +6,21 @@ html {
 	box-sizing: inherit;
 }
 
-
+body {
+	background-image:url("assets/bg.jpg");
+	background-repeat: no-repeat;
+	box-shadow: 5px 10px;
+}
 
 #container {
 	margin: auto;
 	text-align: center;
 	color: white;
-	background-color: green;
 	height: 2000px;
 	width: 900px;
-	border:solid;
-	border-width: 1px;
-	border-color: black;
 	font-family: Helvetica, Arial, sans-serif;
+
+
 }
 
 section {
@@ -31,8 +33,7 @@ section {
 	display: inline-block;
 	height: 30px;
 	width: 344px;
-	background-color: red;
-    margin-left: 459px;
+    margin-left: 560px;
     margin-bottom: 0;
 
 }
@@ -50,18 +51,19 @@ section {
 	display: flex;
 	justify-content: center; 
 	height:30px;
-	width:32px;
-	padding: 5px;
+	width:60px;
+	padding: 7px;
 	margin: 5px;
 	color: white;
 }
 
 .socmediasquare i {
-	
-	padding: 5px;
-	padding-bottom: 24px;
-	padding-right: 10px;
-	padding-left: 10px;
+	font-size: 20px;
+	height: 37px;
+	padding: 9px;
+	padding-bottom: 23px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .fa-facebook-f {
@@ -92,8 +94,9 @@ section {
 
 .socmediasquare li:nth-child(2){
 	height: 18px;
-	margin-right: 10px;
-    margin-top:19px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-top: 22px;
 	border-left: 2px dotted;
 	border-width: 2px;
 }
@@ -102,7 +105,7 @@ section {
 .subscr {
 	margin-top: 4px;
 	margin-right:4px;
-	font-size: 9px;
+	font-size: 12px;
 	padding-right: 13px;
 
 }
@@ -129,7 +132,7 @@ section {
 
 .linkdirectory li {
 	font-size:14px;
-	width: 200px;
+	width: 218px;
 	background-color: rgb(162,24,35);
 	padding: 9px 23px;
 	margin-right: 5px;
@@ -180,7 +183,7 @@ section {
 	left: 0px;
     top: 0px;
     height: 473px;
-    width: 800px;
+    width: 880px;
 }
 
 .articles {
@@ -244,7 +247,6 @@ h3 {
 .skaters {
 	height: 400px;
 	width: auto;
-	background-color: blue;
 }
 
 .skaters div {
@@ -263,6 +265,7 @@ h3 {
 	background-size:  388px 254px;
     background-position: -94px -40px;
 	padding-top:42px;
+	margin-left: 0;
 }
 
 .skaters div:nth-child(2){
@@ -281,6 +284,7 @@ h3 {
 	height: 182px;
 	width: 588px;
 	padding-top:74px;
+	margin-left:0;
 }
 
 .skaters div:nth-child(4){
@@ -289,8 +293,9 @@ h3 {
 	background-size: 600px 379px;
     background-position: -255px -7px;
 	height: 376px;
-	width: 286px;
+	width: 298px;
 	margin-top: -188px;
+	margin-right: 0;
 	padding-top:138px;
 }
 
@@ -302,7 +307,7 @@ h3 {
 	padding-top: 13px;
 	font-size: 13px;
 	position: absolute;
-	left:355px;
+	left:110px;
 	border:none;
 }
 
@@ -321,12 +326,13 @@ h3 {
 
 #boards {
 	font-size: 10px;
-	height: 182px;
+	height: 250px;
 	width: 100px;
 	padding: 0;
 	margin-right:0;
 	margin-left:0;
 	width: 900px;
+	background-color: white;
 }
 
 #boards ul{
@@ -334,14 +340,94 @@ h3 {
 	justify-content: center:;
 	list-style: none;
 	margin-right: 10px;
-	padding-right: 10px;
+	padding: 0;
 }
 
+#boards li {
+	padding-right: 3px;
+	padding-left: 9px;
+}
 #boards img {
 	margin: 10px;
-	height: 138px;
+	height: 207px;
 	width: 57px;
 }
 
+#contact {
+	height: 334px;
+	width: 900px;
+	margin-top: 20px;
+    margin-left: 0px;
+	background-color: white;
+}
 
+#contact div {
+	color: black;
+	padding: 0;
+	height: 300px;
+    width: 400px;
+    margin-left: 10px;
+	font-size: 12px;
+	text-align: left;
+	border: none;
+	background-image: none;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 300;
 
+}
+
+.contactus h2 {
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+.contactus ul {
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+	padding:0;
+	margin: 0;
+}
+
+.contactus i {
+	margin: 0;
+	margin-right: 5px;
+	color: lightgray;
+	background-color: gray;
+	padding-right: 1px;
+	padding-top: 8px;
+	font-size: 17px;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+}
+
+#contact fieldset {
+	border: none;
+	text-align: right;
+	margin: 0;
+}
+
+#contact input {
+	font-size: 14px;
+	padding-left: 5px;
+	height: 38px;
+    width: 415px;
+}
+
+#contact .message1 {
+	margin-top: 10px;
+    padding-bottom: 70px;
+    height: 100px;
+    width: 415px;
+}
+
+#contact .submit {
+	font-size: 15px;
+	color: white;
+	width: 213px;
+	height:37px;
+	background-color: rgb(162,24,35);
+	border: none;
+}
