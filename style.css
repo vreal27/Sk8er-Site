@@ -34,7 +34,7 @@ section {
 	height: 30px;
 	width: 344px;
     margin-left: 560px;
-    margin-bottom: 0;
+    margin-bottom: 34px;
 
 }
 
@@ -58,12 +58,15 @@ section {
 }
 
 .socmediasquare i {
-	font-size: 20px;
-	height: 37px;
-	padding: 9px;
-	padding-bottom: 23px;
-	padding-right: 20px;
-	padding-left: 20px;
+    font-size: 28px;
+    height: 57px;
+    width: 55px;
+    padding: 16px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 26px;
+    padding-left: 17px;
+
 }
 
 .fa-facebook-f {
@@ -89,16 +92,16 @@ section {
 	display: flex;
 	align-items: flex-start;
 	margin-right: 55px;
-	margin-top: 15px;
+	margin-top: 26px;
 }
 
 .socmediasquare li:nth-child(2){
-	height: 18px;
+	height: 35px;
     padding-top: 5px;
     margin-right: 10px;
     margin-top: 22px;
-	border-left: 2px dotted;
-	border-width: 2px;
+    border-left: 2px dotted;
+    border-width: 4px;
 }
 
 
@@ -142,8 +145,8 @@ section {
 .banner {
 	background-image: url("assets/top-image.png");
 	background-repeat: no-repeat;
-	background-position: -31px -129px;
-    background-size: 1036px 750px;
+    background-position: -110px -152px;
+    background-size: 1316px 851px;
 	position: relative;
 	display: block;
 	height: 300px;
@@ -302,20 +305,22 @@ h3 {
 
 #pointer {
 	background-color: rgb(163,23,35);
+	border-color: rgb(163,23,35);
 	height: 44px;
 	width: 140px;
 	padding-top: 13px;
 	font-size: 13px;
 	position: absolute;
 	left:110px;
+	top: 823px
 	border:none;
 }
 
 #pointer:after {
 	position: absolute;
 	content:"";
-	right:-12px;
-	bottom: 1px;
+	right: -15px;
+    bottom: -3px;
 	width: 0;
 	height: 0;
 	border-style: solid;
